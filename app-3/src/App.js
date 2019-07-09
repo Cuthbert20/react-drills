@@ -22,7 +22,7 @@ class App extends Component {
     })
     return (
       <div className="App">
-        <input type="text" onChange={event => this.handleFam(event.target.value)}/>
+        <input type="text" onChange={e => this.handleFam(e.target.value)}/>
         <h2>{famDisplay}</h2>
       </div>
     );
